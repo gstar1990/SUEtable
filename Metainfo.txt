@@ -2,9 +2,9 @@ Name of QuantLet:  'SUEtable'
 
 Published in:      
 
-Description:       'Generate regression table to see news tone effects on analysts' forecast behavior'
+Description:       'Generate regression table to see news tone effects on analyst forecast behavior'
 
-Keywords:          'Media News, Analyst, Information, Tone'
+Keywords:          'Media news, Analyst, Information, Tone'
 
 See also:          'Accuracytable SUEdata Accuracydata'
 

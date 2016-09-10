@@ -4,21 +4,21 @@
 
 
 ```yaml
-Name of QuantLet:  SUEtable
+Name of QuantLet:  'SUEtable'
 
 Published in:      
 
-Description:       Generate regression table to see news tone effects on analysts' forecast behavior
+Description:       'Generate regression table to see news tone effects on analyst forecast behavior'
 
-Keywords:          Media News, Analyst, Information, Tone
+Keywords:          'Media News, Analyst, Information, Tone'
 
-See also:          Accuracytable SUEdata Accuracydata
+See also:          'Accuracytable SUEdata Accuracydata'
 
-Author:            Guo Li
+Author:            'Guo Li'
 
-Submitted:         Mon, September 5 2016 by Guo Li
+Submitted:         'Mon, September 5 2016 by Guo Li'
 
-Datafile:          sue.dta
+Datafile:          'sue.dta'
 
 Input:  
 
@@ -34,7 +34,6 @@ Example:
 ```Stata
 cd C:\Users\~
 use sue.dta
-latabstat wsue  wstdev pos neg wrevise wsize wbtom wturnover  walpha wcumr30 wabr2 wmedest wcigdummy wvolatility wmktret winstown_perc wleverage wmomentumf williquidityf wovercon1 wdiscon1 hardinfo,  s(n mean sd min q max) col(stat)  f(%9.2fc) 
 
 xi:areg  wsue pos lagwsue  i.lagfyear, a(cusip) cluster(cusip)
 est store m1
